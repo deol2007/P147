@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene background="color: #000000">
+
+        <!--Camera-->
+        <a-entity position="0 0.4 1.4">
+            <a-camera></a-camera>
+        </a-entity>
+
+
+        <!--Background-->
+        <a-sky color="grey">
+
+        </a-sky>
+
+        <!--wall-->
+        <a-entity>
+            <a-plane position="-0.5 2 0" width="1" rotation="0 90 0" length="1"
+                src="https://cdn.shopify.com/s/files/1/0285/1316/products/w0320_1s_Bright-Floral-Design-Wallpaper-for-Walls-Juncaceae_Repeating-Pattern-Sample-1.jpg?v=1604087357"></a-plane>
+        </a-entity>
+
+        <!--wall-->
+        <a-entity>
+            <a-plane position="0.5 2 0" width="1" rotation="0 -90 0" length="1"
+                src="https://cdn.shopify.com/s/files/1/0285/1316/products/w0320_1s_Bright-Floral-Design-Wallpaper-for-Walls-Juncaceae_Repeating-Pattern-Sample-1.jpg?v=1604087357"></a-plane>
+        </a-entity>
+
+        <!--wall-->
+        <a-entity>
+            <a-plane position="0 2 0" width="1" length="1"
+                src="https://cdn.shopify.com/s/files/1/0285/1316/products/w0320_1s_Bright-Floral-Design-Wallpaper-for-Walls-Juncaceae_Repeating-Pattern-Sample-1.jpg?v=1604087357"></a-plane>
+        </a-entity>
+
+        <!--ground-->
+        <a-entity>
+            <a-box position="0 1.45 0" width="1" height=".1" length="1"
+                color="#FAAFBA"></a-box>
+        </a-entity>
+
+        <!--bed-->
+        <a-entity>
+            <a-box position="-0.25 1.6 0" width="0.3" height=".06" depth="0.9"
+                src="https://thumbs.dreamstime.com/b/simple-background-some-strawberry-vector-pink-background-pink-strawberry-strawberry-pattern-cute-strawberry-pink-114684385.jpg"></a-box>
+        </a-entity>
+
+        <!--pillow-->
+        <a-entity>
+            <a-box position="-0.25 1.65 0" width="0.15" height=".02" depth="0.2"
+                src="https://thumbs.dreamstime.com/b/simple-background-some-strawberry-vector-pink-background-pink-strawberry-strawberry-pattern-cute-strawberry-pink-114684385.jpg"></a-box>
+        </a-entity>
+
+
+        <!--dresser-->
+        <a-entity>
+            <a-box position="0.05 1.55 0" width="0.3" height=".3" depth="0.2"
+                src="https://content.abt.com/image.php/Hooker-Furniture-Sky-8-Dresser-6700-90002-80-Front.jpg?image=/images/products/BDP_Images/Hooker-Furniture-Sky-8-Dresser-6700-90002-80-Front.jpg&canvas=1&min_w=750&min_h=0"></a-box>
+        </a-entity>
+    </a-scene>
+</body>
+
+</html>
